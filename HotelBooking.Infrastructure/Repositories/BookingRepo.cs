@@ -32,10 +32,9 @@ namespace HotelBooking.Infrastructure.Repositories
 
         public async Task AddAsync(Booking booking)
         {
-            // إضافة الحجز إلى مجموعة الحجوزات
+            
             await _context.Bookings.AddAsync(booking);
 
-            // حفظ التغييرات في قاعدة البيانات
             await _context.SaveChangesAsync();
         }
     }

@@ -11,6 +11,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelBooking.Application", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelBooking.Api", "..\HotelBooking.Api\HotelBooking.Api.csproj", "{E20F8DC0-836C-42CA-807F-868FD9D55F90}"
 EndProject
+<<<<<<< HEAD
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelBooking.UnitTests", "..\HotelBooking.UnitTests\HotelBooking.UnitTests.csproj", "{BF6DF965-71A6-46F7-AE22-F0020C38D125}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{6E3BEAF1-E8F2-41CF-993C-F8B59A1E798D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{23D04B6D-7D8F-44D7-A87A-497F673972BB}"
+	ProjectSection(SolutionItems) = preProject
+		ci-cd-pipeline.yml = ci-cd-pipeline.yml
+	EndProjectSection
+EndProject
+>>>>>>> 29b6d53 (create github folder for ci)
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,10 +45,23 @@ Global
 		{E20F8DC0-836C-42CA-807F-868FD9D55F90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E20F8DC0-836C-42CA-807F-868FD9D55F90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E20F8DC0-836C-42CA-807F-868FD9D55F90}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
+=======
+		{BF6DF965-71A6-46F7-AE22-F0020C38D125}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF6DF965-71A6-46F7-AE22-F0020C38D125}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF6DF965-71A6-46F7-AE22-F0020C38D125}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF6DF965-71A6-46F7-AE22-F0020C38D125}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> 29b6d53 (create github folder for ci)
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
+<<<<<<< HEAD
+=======
+	GlobalSection(NestedProjects) = preSolution
+		{23D04B6D-7D8F-44D7-A87A-497F673972BB} = {6E3BEAF1-E8F2-41CF-993C-F8B59A1E798D}
+	EndGlobalSection
+>>>>>>> 29b6d53 (create github folder for ci)
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FF187423-B041-4E0D-AE73-2BD5736657DC}
 	EndGlobalSection

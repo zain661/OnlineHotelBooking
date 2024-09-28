@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Online Hotel Booking System
 
 This is an ASP.NET Core backend for an online hotel booking system. The system allows users to search for hotels, filter rooms based on amenities and other criteras, and make reservations. Admins can manage hotel listings, rooms, and cities.
@@ -29,3 +30,10 @@ This is an ASP.NET Core backend for an online hotel booking system. The system a
 
 
 
+=======
+<<<<<<< HEAD
+# OnlineHotelBooking
+=======
+# finalProject
+>>>>>>> a3e1783 (without unit testing)
+>>>>>>> 29b6d53 (create github folder for ci)
