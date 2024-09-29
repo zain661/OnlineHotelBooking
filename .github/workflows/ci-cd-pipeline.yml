@@ -20,6 +20,9 @@ jobs:
 
     - name: Restore dependencies
       run: dotnet restore
+      working-directory: ./HotelBooking.Api
 
     - name: Build
       run: dotnet build --configuration Release
+      working-directory: ./HotelBooking.Api
+
